@@ -1,0 +1,421 @@
+body {
+  background-color: #ffffff;
+}
+
+/* Navbar styling */
+.navbar {
+  padding: 15px 20px;
+  background-color: #ffffff; /* White background for the navbar */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Navbar brand text styling */
+.navbar-brand {
+  font-family: 'Times New Roman', serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #d4af37; /* Goldish yellow color */
+}
+.navbar-logo {
+  height: 50px; /* Adjust the size as needed */
+  width: auto;
+}
+
+/* Navbar links styling */
+.navbar-nav .nav-link {
+  font-size: 18px;
+  color: #333333; /* Dark text color for contrast */
+  transition: color 0.3s;
+}
+
+/* Navbar links hover effect */
+.navbar-nav .nav-link:hover {
+  color: #d4af37; /* Goldish yellow on hover */
+}
+
+/* Navbar toggler styling for mobile */
+.navbar-toggler {
+  border-color: #d4af37; /* Goldish yellow border */
+}
+
+/* Navbar toggler icon styling */
+.navbar-toggler-icon {
+  background-color: #d4af37; /* Goldish yellow background for the icon */
+}
+/* Hide the carousel on larger screens */
+.carousel-container {
+  display: none; /* Default to hidden */
+}
+
+/* Show the carousel only on mobile screens (max-width: 576px) */
+@media (max-width: 576px) {
+  .carousel-container {
+      display: block; /* Visible on mobile */
+      width: 100%;    /* Full width on mobile screens */
+      margin-top: 10px; /* Spacing below the navbar */
+  }
+
+  .carousel-container img {
+      height: 250px;  /* Set height for mobile */
+      object-fit: cover;
+  }
+}
+
+
+/* section */
+
+/* Global Styles */
+body {
+  font-family: 'Georgia', serif; /* Elegant serif font for a classic look */
+  color: #333; /* Dark gray text color for better readability */
+  line-height: 1.6; /* Increase line height for readability */
+  margin: 0;
+  padding: 0;
+}
+
+/* Container for spacing and centering content */
+.container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Heading Styles */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Times New Roman', serif; /* Classic serif font for headings */
+  color: #4A4A4A; /* Slightly lighter gray for headings */
+  margin-top: 0;
+  margin-bottom: 10px;
+  text-align: center; /* Center headings */
+}
+/* For centering and styling the container */
+.animated-text-container {
+  width: 100%;
+  overflow: hidden;
+  border-top: 2px solid #d4af37;
+  border-bottom: 2px solid #d4af37;
+  
+ 
+  padding: 5px 1px;
+  position: relative;
+}
+
+/* Text that scrolls */
+.animated-text {
+  white-space: nowrap;
+  display: inline-block;
+  animation: scroll-left 15s linear infinite;
+  font-size: 1.2rem;
+  color: rgb(250, 56, 13); /* Customize your text color */
+}
+
+/* Animation keyframes for scrolling text */
+@keyframes scroll-left {
+  0% {
+      transform: translateX(100%);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
+}
+
+
+/* Specific styles for each heading level */
+h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #2C3E50; /* Dark blue-gray color */
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #34495E; /* Slightly lighter blue-gray color */
+}
+
+h3 {
+  font-size: 1.75em;
+  font-weight: bold;
+  color: #5D6D7E; /* Lighter blue-gray color */
+}
+
+h4 {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #7F8C8D; /* Soft gray color */
+}
+
+h5 {
+  font-size: 1.25em;
+  font-weight: bold;
+  color: #85929E; /* Even softer gray color */
+}
+
+h6 {
+  font-size: 1em;
+  font-weight: bold;
+  color: #AAB7B8; /* Very soft gray color */
+}
+
+/* Paragraph Styles */
+p {
+  font-size: 1em;
+  color: #555; /* Slightly lighter gray color for text */
+
+  text-align: center; /* Center paragraphs */
+}
+
+
+/* Optional: Add a shadow effect to headings */
+h1, h2, h3 {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+}
+
+
+.gold-rate-button-container {
+  text-align: center;
+  margin-top: none;
+}
+
+.btn-primary {
+  background-color: #d4af37;
+  border-color: #d4af37;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.btn-primary:hover {
+  background-color: #b89730;
+  border-color: #b89730;
+}
+
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-text {
+    margin-bottom: 1rem;
+}
+
+.btn-outline-primary {
+    border-color: #d4af37;
+    color: #d4af37;
+}
+
+.btn-outline-primary:hover {
+    background-color: #d4af37;
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: #d4af37;
+    border-color: #d4af37;
+}
+
+.btn-primary:hover {
+    background-color: #b89730;
+    border-color: #b89730;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #2C3E50;; /* Gold color for the heading */
+}
+
+h4 {
+  font-size: 2rem;
+  margin-bottom: 1px;
+  border-bottom: 2px solid #d4af37;
+  padding-bottom: 0.5rem;
+  color: #2C3E50
+}
+
+p {
+  font-size: 1.125rem;
+  line-height: 1.6;
+}
+
+/* Contact Form Styling */
+
+.section-title {
+  text-align: center;
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #4A4A4A;; /* Goldish Yellow */
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+  color: #333;
+}
+
+.form-control {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #333;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+  transition: border-color 0.3s ease-in-out;
+}
+
+.form-control:focus {
+  border-color: #d4af37;
+  outline: none;
+}
+
+.contact-submit-btn {
+  display: block;
+  width: 250px;
+  padding: 12px;
+  background-color: #d4af37; /* Goldish Yellow */
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-submit-btn:hover {
+  background-color: #c8a03b;
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+      padding: 20px;
+  }
+
+  .form-group label {
+      font-size: 16px;
+  }
+
+  .form-control {
+      padding: 10px;
+  }
+
+  .contact-submit-btn {
+      font-size: 16px;
+      padding: 10px;
+      width:200px;
+  }
+}
+/* footer */
+/* Footer Styling */
+.footer {
+  background-color: #f8f9fa;
+  padding: 40px 0;
+  color: #333;
+  display: flex;
+  justify-content: space-between; /* Distribute sections evenly */
+  flex-wrap: wrap;
+}
+
+/* Footer Heading Styling */
+.footer h5 {
+  color: #d4af37; /* Goldish Yellow */
+  margin-bottom: 20px;
+}
+
+/* Footer Contact Info List */
+.contact-info li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.contact-info li i {
+  margin-right: 10px;
+  color: #d4af37;
+}
+
+/* Social Links */
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.social-icon i {
+  font-size: 24px;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.social-icon:hover i {
+  color: #d4af37;
+}
+
+/* Quick Links */
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #d4af37;
+}
+
+/* Remove extra margin between sections */
+.footer-section {
+  margin-bottom: 30px; /* Uniform spacing */
+}
+
+/* Adjust padding and margins between "About Us" and "Get In Touch" */
+.footer .about-us,
+.footer .get-in-touch {
+  margin-bottom: 20px; /* Equalize the spacing */
+}
+
+@media (max-width: 768px) {
+  .footer {
+      text-align: center;
+      padding: 10px 0; /* Adjust padding for mobile */
+  }
+
+  .social-links {
+      justify-content: center;
+  }
+}
