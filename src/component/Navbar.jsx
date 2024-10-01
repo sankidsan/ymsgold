@@ -7,15 +7,18 @@ const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container-fluid">
-                {/* Replace text with GIF image */}
-                <a className="navbar-brand" href="#">
+                {/* Company logo followed by name */}
+                <a className="navbar-brand d-flex align-items-center" href="#">
                     <img 
                         src={`${process.env.PUBLIC_URL}/logo.jpeg`} 
-                        alt="" 
+                        alt="Logo" 
                         className="navbar-logo"
-                        width="100"
+                        width="50"
                         height="auto"
                     />
+                    <span className="ms-2" style={{ fontSize: '24px', fontWeight: 'bold', color: '#d4af37' }}>
+                        
+                    </span>
                 </a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
