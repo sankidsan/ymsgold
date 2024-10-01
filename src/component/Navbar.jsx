@@ -17,7 +17,7 @@ const Navbar = () => {
                         height="auto"
                     />
                     <span className="ms-2" style={{ fontSize: '24px', fontWeight: 'bold', color: '#d4af37' }}>
-                        
+                        YMJ
                     </span>
                 </a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
